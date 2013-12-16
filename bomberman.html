@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bomberman</title>
+    <link rel="stylesheet" href="css\bomberman.css">
+  </head>
+  <body>
+  <div class = "game">
+    <div class = "header">
+    <h1>BOMBERMAN</h1>
+    <p>Développé par Olivier Daneau et Jean-François Rivard.</p>
+    <p>Pour le cours SIO 2109 - Introduction à la Programmation.</p>
+    <p>Joueur 1 - Déplacements: Flèches, Bombes : Espace</p>
+    <p>Joueur 2 - Déplacements: WASD, Bombes : Q</p>
+    </div>
+    <section>
+      <canvas id="canvas" width="608 px" height="480 px">
+      <img id ="bomb" src="css/images/bomb.gif"></img>
+      <img id ="bomb2" src="css/images/bomb2.gif"></img>
+      <img id ="bomb3" src="css/images/bomb3.gif"></img>
+      <img id ="crate" src="css/images/crate.gif"></img>
+      <img id ="death" src="css/images/death.gif"></img>
+      <img id ="destroy_crate" src="css/images/broken.gif"></img>
+      <img id ="detonate" src="css/images/explosion.gif"></img> 
+      <img id ="empty" src="css/images/empty.gif"></img>
+      <img id ="enemy" src="css/images/enemy.gif"></img>
+      <img id ="floor" src="css/images/floor.gif"></img>
+      <img id ="player_head" src="css/images/player_head.gif"></img>
+      <img id ="enemy_head" src="css/images/enemy_head.gif"></img>
+      <img id ="player" src="css/images/player.gif"></img>
+      <img id ="wall" src="css/images/wall.gif"></img>
+      </canvas>
+    </section>
+    <script type="application/dart" src="bomberman.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+  </div>  
+  </body>
+</html>

@@ -1,0 +1,6 @@
+name: Bomberman
+author: Olivier Daneau et Jean-François Rivard
+homepage: http://ondart.me/web_programming.md
+description: A simple Bomberman Game.
+dependencies:
+  browser: any
